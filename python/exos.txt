@@ -1,0 +1,32 @@
+# add_numbers.py
+créer un script "add_numbers.py" qui demande à l'utilisateur de saisir deux chiffres
+le script affichera l'addition des deux valeurs saisies
+
+Exemple:
+Saisir chiffre 1: 4
+Saisir chiffre 2: 10
+Résultat: 14
+----------------------------------------------------------------
+
+# good_password.py
+Créer un script contenant un mot de passe correct (à inventer).
+Ce script demande à l'utilisateur de saisir un mot de passe.
+Si le mot de passe saisi correspond au mot de passe correct,
+on affiche "bravo" sinon on affiche "mauvais mot de passe"
+----------------------------------------------------------------
+
+# driving_licence.py
+Créer un script demandant à l'utilisateur de saisir son âge.
+Si l'âge est inférieur à 16, on affiche "impossible de passer ton permis"
+Si l'âge est supérieur ou égal à 18, "tu peux passer ton permis"
+si l'âge est inférieur à 18 mais supérieur ou égal à 16, "conduite acc. possible"
+
+# loop.py
+Créer un script qui demande à l'utilisateur son prénom puis
+le nombre de fois qu'il souhaite l'afficher
+
+Le script affichera à l'écran le prénom autant de fois qu'indiqué
+par l'utilisateur à condition que ce nombre de fois soitinférieur
+ou égal à 100 
+Dans le cas où le nombre de fois est supérieur à 100,
+on affichera "ce programme n'accepte pas d'itérer plus de 100 fois"
