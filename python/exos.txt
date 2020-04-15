@@ -20,6 +20,7 @@ Créer un script demandant à l'utilisateur de saisir son âge.
 Si l'âge est inférieur à 16, on affiche "impossible de passer ton permis"
 Si l'âge est supérieur ou égal à 18, "tu peux passer ton permis"
 si l'âge est inférieur à 18 mais supérieur ou égal à 16, "conduite acc. possible"
+----------------------------------------------------------------
 
 # loop.py
 Créer un script qui demande à l'utilisateur son prénom puis
@@ -30,3 +31,62 @@ par l'utilisateur à condition que ce nombre de fois soitinférieur
 ou égal à 100 
 Dans le cas où le nombre de fois est supérieur à 100,
 on affichera "ce programme n'accepte pas d'itérer plus de 100 fois"
+----------------------------------------------------------------
+
+# sum_input.py
+Créer un script demandant à l'utilisateur de saisir
+un chiffre tant que la somme des chiffres précédemment saisis
+est inférieure à 100
+
+exemple:
+10
+60
+10
+30 => 10 + 60 + 10 + 30 = 110 > 100 => sortie de boucle
+----------------------------------------------------------------
+
+# average.py
+Un étudiant a obtenu les notes suivantes durant l'année:
+7,12,14,7,0,16,19
+
+Créer un script affichant la moyenne des notes obtenues
+par cet étudiant
+----------------------------------------------------------------
+
+# generate_files.py
+Une classe comporte un certain nombre d'étudiants.
+A partir de la liste de ces étudiants (exemple: Chris, Melvin, etc.),
+générer un fichier par étudiant. Vous nommerez le fichier de la
+manière suivante: nom de l'étudiant + extension ".txt"
+Par exemple: "Chris.txt", "Melvin.txt", etc.
+Les fichiers générés seront placés dans un dossier students
+----------------------------------------------------------------
+
+# min_max.py
+notes = [7,12,14,7,0,16,19]
+Créer un script affichant:
+ - la note la plus basse trouvée dans la liste de notes
+ - la note la plus haute trouvée dans la liste de notes
+ ----------------------------------------------------------------
+
+ # search_dict.py
+ On dispose du tableau d'étudiants suivants:
+ students = [
+    {"name": "Melvin", "group":"TSRS21"},
+    {"name": "Franck", "group":"TSRS21"},
+    {"name": "Toto", "group":"TSRS19"},
+    {"name": "Machin", "group":"TSRS19"},
+    {"name": "Emilie", "group":"TSRS21"}
+]
+
+Créer un script demandant à l'utilisateur de saisir le numéro
+d'un groupe TSRS
+Le script affichera le nom des étudiants du groupe indiqué
+Exemple:
+Numéro du groupe: 21
+
+Etudiants trouvés pour le groupe TSRS21:
+Melvin
+Franck
+Emilie
+

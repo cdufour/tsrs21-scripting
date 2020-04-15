@@ -17,4 +17,14 @@ while index < 5:
 
 # print(name[0]) # affiche C
 # print(name[1]) # affiche h
+
+# range -> [0, 99], range produit en ENSEMBLE de valeurs itérables
+# for n in range(100):
+#     print(n)
+
+for n in range(10,15):
+    print(n)
+
+
+
  
