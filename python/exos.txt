@@ -91,3 +91,13 @@ Franck
 Emilie
 ----------------------------------------------------------------
 
+# tva.py
+Créer un script demandant à l'utilisateur de saisir un montant HT
+Le script affichera ce montant TTC (avec une tva 20%)
+Exemple:
+Montant HT: 100
+Le montant TTC est de 120 EUR
+
+Contrainte, le script devra utiliser une fonction pour le calcul
+du prix TTC
+----------------------------------------------------------------
